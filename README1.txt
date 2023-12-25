@@ -42,4 +42,5 @@ which is inefficient for large values of i and j.
 
 The space complexity of this solution depends on the size of the call stack, which is equal to the height of the recursion tree.
 In this case, input parameters (i and j) are at most decreasing by 1 on each recursive call and terminate when either i or j becomes 0. 
-The height of the recursion tree in the worst case will be O(max(i, j) and space complexity = O(max(i, j)).It is important to note that size of vector used to store LCS in worst case will not exceed min(i, j). 
+The height of the recursion tree in the worst case will be O(max(i, j) and space complexity = O(max(i, j)).
+It is important to note that size of vector used to store LCS in worst case will not exceed min(i, j). 
