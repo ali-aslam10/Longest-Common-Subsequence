@@ -41,6 +41,15 @@ void lcs(string s1, string s2, int m, int n)
 	}
 	cout << "s1:" << s1 << "\ns2:" << s2 << "\nlcs:" << res;
 	cout << "\nLength of LCS:" << mat[m][n];
+	for (int i = 0; i <= m; i++)    //memory deallocation
+	{
+		delete[]mat[i];
+		mat[i]=nullptr;
+	}
+	delete []mat;
+	mat=nullptr;
+	delete res;
+	res=nullptr;
 }
 int main()
 {
