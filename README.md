@@ -9,7 +9,7 @@ In a strictly increasing sequence, the indices of the elements chosen from the o
 S1 = {B, C, D, A, A, C, D}  
 S2 = {A, C, D, B, A, C}  
 Then, common subsequences are {B, C}, {C, D, A, C}, {D, A, C}, {A, A, C}, {A, C}, {C, D} ….  
-Among these subsequences, **{C, D, A, C} is the longest common subsequence.**
+Among these subsequences, **{C, D, A, C} is the longest common subsequence.**  
 Here we use two appproaches to solve the above problem 
 # Discussed solution approaches
 **Using simple recursion**  
