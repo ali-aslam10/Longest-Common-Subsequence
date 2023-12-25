@@ -61,4 +61,5 @@ int main()
 	int m = s1.length();
 	int n = s2.length();
 	lcs(s1, s2, m, n);
+	return 0;
 }
